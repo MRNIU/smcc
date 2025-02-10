@@ -1,3 +1,21 @@
+# This file is a part of MRNIU/smcc
+# (https://github.com/MRNIU/smcc).
+#
+# .gitignore for MRNIU/smcc.
+
+.DS_Store
+build_aarch64
+build_riscv64
+build_x86_64
+doc/html
+.gdbinit
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea
+Doxyfile
+.gdbinit
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
