@@ -1,11 +1,11 @@
 
-# This file is a part of MRNIU/smcc
-# (https://github.com/MRNIU/smcc).
+# This file is a part of MRNIU/smccc
+# (https://github.com/MRNIU/smccc).
 #
-# CMakeLists.txt for MRNIU/smcc.
+# CMakeLists.txt for MRNIU/smccc.
 
 add_library(${PROJECT_NAME} STATIC
-        smcc.c
+        smccc.c
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
@@ -20,4 +20,4 @@ target_compile_options(${PROJECT_NAME} PRIVATE
         -ffreestanding
 )
 
-set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "include/smcc.h")
+set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "include/smccc.h")

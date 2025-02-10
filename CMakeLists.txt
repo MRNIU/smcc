@@ -1,13 +1,13 @@
-# This file is a part of MRNIU/smcc
-# (https://github.com/MRNIU/smcc).
+# This file is a part of MRNIU/smccc
+# (https://github.com/MRNIU/smccc).
 #
-# CMakeLists.txt for MRNIU/smcc.
+# CMakeLists.txt for MRNIU/smccc.
 
 # 设置最小 cmake 版本
 CMAKE_MINIMUM_REQUIRED (VERSION 3.27 FATAL_ERROR)
 
 # 设置项目名与版本
-PROJECT (smcc VERSION 0.0.1)
+PROJECT (smccc VERSION 0.0.1)
 
 # 禁止原地编译
 IF(${PROJECT_SOURCE_DIR} STREQUAL ${PROJECT_BINARY_DIR})

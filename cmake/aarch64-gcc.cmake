@@ -1,8 +1,8 @@
 
-# This file is a part of MRNIU/smcc
-# (https://github.com/MRNIU/smcc).
+# This file is a part of MRNIU/smccc
+# (https://github.com/MRNIU/smccc).
 # 
-# aarch64-gcc.cmake for MRNIU/smcc.
+# aarch64-gcc.cmake for MRNIU/smccc.
 
 if (NOT UNIX)
     message(FATAL_ERROR "Only support Linux.")

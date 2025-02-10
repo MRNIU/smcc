@@ -1,7 +1,7 @@
-# This file is a part of MRNIU/smcc
-# (https://github.com/MRNIU/smcc).
+# This file is a part of MRNIU/smccc
+# (https://github.com/MRNIU/smccc).
 #
-# .gitignore for MRNIU/smcc.
+# .gitignore for MRNIU/smccc.
 
 .DS_Store
 build_aarch64

@@ -1,8 +1,8 @@
 
-# This file is a part of MRNIU/smcc
-# (https://github.com/MRNIU/smcc).
+# This file is a part of MRNIU/smccc
+# (https://github.com/MRNIU/smccc).
 #
-# .clang-tidy for MRNIU/smcc.
+# .clang-tidy for MRNIU/smccc.
 
 ---
 Checks: >

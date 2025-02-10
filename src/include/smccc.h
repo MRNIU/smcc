@@ -1,12 +1,12 @@
 
 /**
- * @file smcc.c
- * @brief smcc 实现
+ * @file smccc.h
+ * @brief smccc 头文件
  * @author Zone.N (Zone.Niuzh@hotmail.com)
  * @version 1.0
  * @date 2024-05-24
  * @copyright MIT LICENSE
- * https://github.com/MRNIU/smcc
+ * https://github.com/MRNIU/smccc
  * @par change log:
  * <table>
  * <tr><th>Date<th>Author<th>Description
@@ -14,4 +14,10 @@
  * </table>
  */
 
-#include "smcc.h"
+ #ifndef SMCC_SRC_INCLUDE_SMCCC_H_
+ #define SMCC_SRC_INCLUDE_SMCCC_H_
+ 
+ 
+ 
+ #endif /* SMCC_SRC_INCLUDE_SMCCC_H_ */
+ 
