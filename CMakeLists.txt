@@ -21,9 +21,6 @@ ENDIF()
 
 add_subdirectory(src)
 
-ADD_LIBRARY (${PROJECT_NAME} INTERFACE)
-TARGET_INCLUDE_DIRECTORIES (${PROJECT_NAME} INTERFACE include)
-
 # 获取 gcc 的 include 路径
 EXECUTE_PROCESS (
     COMMAND sh -c "echo | ${CMAKE_CXX_COMPILER} -v -x c -E - 2>&1 | sed -n \
