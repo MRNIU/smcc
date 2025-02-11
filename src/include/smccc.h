@@ -72,6 +72,13 @@ enum SMCCC_PSCI_ReturnValue {
   SMCCC_PSCI_INVALID_ADDRESS = -9,
 };
 
+struct arm_smccc_res {
+  unsigned long a0;  // 返回值 0
+  unsigned long a1;  // 返回值 1
+  unsigned long a2;  // 返回值 2
+  unsigned long a3;  // 返回值 3
+};
+
 /// 电源状态编码
 /// @see DEN0022F.b_Power_State_Coordination_Interface.pdf#6.5
 struct StateID {
